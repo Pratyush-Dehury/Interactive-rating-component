@@ -10,7 +10,7 @@ body{
     font-weight: 400;
     color: hsl(216, 12%, 54%);
     background-color:  hsl(216, 12%, 8%);
-    padding: 50px;
+    padding: 10px;
 }
 
 .circle{
@@ -28,7 +28,7 @@ header.circle{
     align-items: center;
     color: hsl(25, 97%, 53%);
     text-align: center;
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 header p{
@@ -53,9 +53,10 @@ header p{
 }
 
 #secondary p{
+    height: 16px;
     background-color: hsl(208, 19%, 19%);
     color: hsl(25, 97%, 53%);
-    margin: 5px auto;
+    margin: 40px auto;
     border-radius: 8px;
 }
 
@@ -101,4 +102,10 @@ button[type="submit"]{
 button[type="submit"]:hover{
     background-color: white;
     color: hsl(25, 97%, 53%);
+}
+
+@media only screen and (min-width:1044px) {
+    body{
+        padding: 50px;
+    }
 }

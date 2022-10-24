@@ -23,6 +23,7 @@ submit.addEventListener("click", () => {
     document.querySelector(
       "#secondary p"
     ).innerHTML = `You selected ${num} out of 5`;
+    document.querySelector(".text").style.textAlign = "center";
     document.querySelector(".text h1").innerHTML = "Thank you";
     document.querySelector(".text p").innerHTML =
       "We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!";
